@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div class="bix">
+        <div>
+            <input type="text" placeholder="0" align="right" id="outvar">
+        </div>
+        <br>
+        <div class="content">
+            <div>
+                <Button onclick="
+                    input+='%';
+                    log();">%</Button>
+            </div>
+            <div>
+                <Button onclick="
+                    input='';
+                    log();">CE</Button>
+            </div>
+            <div>
+                <button onclick="
+                    input='';
+                    log();">C</button>
+            </div>
+            <div>
+                <button onclick="
+                    backsp();">
+                    <span class="material-symbols-outlined">
+                        backspace
+                        </span>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <Button onclick="
+                    input='1/'+input;
+                    log();
+                    equal();">1/X</Button>
+            </div>
+            <div>
+                <Button onclick="
+                input+='*'+input;
+                log();
+                equal();">X<sup>2</sup></Button>
+            </div>
+            <div>
+                <button onclick="
+                input+='**0.5';
+                log();
+                equal();">X<sup>1/2</sup></button>
+            </div>
+            <div>
+                <button onclick="
+                    input+='/';
+                    log();">
+                    /
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <Button onclick="
+                input+='7';
+                log();">7</Button>
+            </div>
+            <div>
+                <Button onclick="
+                input+='8';
+                log();">8</Button>
+            </div>
+            <div>
+                <button onclick="
+                input+='9';
+                log();">9</button>
+            </div>
+            <div>
+                <button onclick="
+                input+='*';
+                log();">
+                    *
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <Button onclick="
+                input+='4';
+                log();">4</Button>
+            </div>
+            <div>
+                <Button onclick="
+                input+='5';
+                log();">5</Button>
+            </div>
+            <div>
+                <button onclick="
+                input+='6';
+                log();">6</button>
+            </div>
+            <div>
+                <button onclick="
+                input+='-';
+                log();">
+                    -
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <Button onclick="
+                input+='1';
+                log();">1</Button>
+            </div>
+            <div>
+                <Button onclick="
+                input+='2';
+                log();">2</Button>
+            </div>
+            <div>
+                <button onclick="
+                input+='3';
+                log();">3</button>
+            </div>
+            <div>
+                <button onclick="
+                input+='+';
+                log();">
+                    +
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <Button onclick="
+                input+='**';log();">^</Button>
+            </div>
+            <div>
+                <Button onclick="
+                input+='0';
+                log();">0</Button>
+            </div>
+            <div>
+                <button onclick="
+                input+='.';log();">.</button>
+            </div>
+            <div>
+                <button id="equalb" onclick="
+                equal();log();">
+                    =
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="1.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.content{
+    display: flex;
+}
+button{
+    width: 80px;
+    cursor: pointer;
+    height: 50px;
+    font-size: large;
+    background-color: rgba(92, 89, 89, 0.112);
+    color: white;
+    border-radius: 7px;
+    margin: 1px;
+    border: groove 2px rgba(249, 249, 249, 0.51);
+    box-shadow: 1px 1px 1px rgba(255, 158, 3, 0.945);
+}
+body{
+    background-color: rgb(52, 50, 50);
+    color: white;
+    padding-top: 5%;
+    padding-left: 40%;
+}
+input{
+    width: 315px;
+    height: 80px;
+    border-radius: 20px;
+    border: groove 2px rgba(249, 249, 249, 0.14);
+    box-shadow: 1px 1px 3px rgba(255, 158, 3, 0.585);
+    background-color: rgba(92, 89, 89, 0.112);
+    justify-content: left;
+    text-align: right;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+}
+.bix{
+    border-radius: 10px;
+    border: groove 10px rgba(249, 249, 249, 0.015);
+    box-shadow: 2px 2px 10px rgba(255, 158, 3, 0.945);
+    width: 325px;
+    padding: 10px;
+}
+#equalb{
+    background-color: rgba(128, 255, 0, 0.716);
+}
